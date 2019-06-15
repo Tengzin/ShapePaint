@@ -1,7 +1,17 @@
-# Java/Swing Sketch Program
+# ShapePaint
 
-### Environment
-Tested on Java 1.8, MacOS.
+### Components
+Built using Java and Swing components. 
+
+### How to Use
+Gradle and Java 1.8 is required.
+```
+gradle build
+```
+
+```
+gradle run
+```
 
 ### Features
 #### Tools
@@ -11,7 +21,6 @@ To deselect the current shape, press ESC or select another shape.
 - Line tool: Draws a line using mouse drag.
 - Ellipse tool: Draw an ellipse using mouse drag.
 - Rectangle tool: Draw a rectangle using mouse drag.
-
 #### System Level
 - Supports saving and loading previous drawings.
 - Can copy paste drawings to clipboard and use in other apps (eg. Photoshop)
