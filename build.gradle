@@ -1,0 +1,8 @@
+apply plugin : 'application'
+mainClassName = "Drawing"
+sourceSets.main.java.srcDirs = ['src']
+sourceSets.main.resources { srcDirs = ["src/resources"]; include "**/*.*" }
+
+dependencies {
+    compile files('src/resources/vecmath.jar', 'src/resources/commons-io-1.3.2.jar')
+}
