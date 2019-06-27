@@ -4,7 +4,7 @@
 Built using Java and Swing components. 
 
 ### How to Use
-Gradle and Java 1.8 is required.
+Gradle and Java 1.8 are required.
 ```
 gradle build
 ```
