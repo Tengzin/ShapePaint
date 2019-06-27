@@ -1,5 +1,9 @@
 # ShapePaint
 
+### Preview
+
+![alt text](screenshot.png)
+
 ### Components
 Built using Java and Swing components. 
 
